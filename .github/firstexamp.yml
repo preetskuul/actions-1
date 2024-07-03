@@ -9,4 +9,10 @@ jobs:
       steps:
       - name: welcome
         run:  echo "welcome"
-        
+
+      - name: List files
+        run: ls
+
+      - name: done
+        run: echo " DONE"
+
