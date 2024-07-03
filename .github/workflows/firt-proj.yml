@@ -1,0 +1,17 @@
+name: MY FIrst PRoj
+
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Welcome
+          run: echo "WELCOME"
+
+        - name: List FIles
+          run: ls
+
+        - name: done
+          run: echo "DONE"
+          
